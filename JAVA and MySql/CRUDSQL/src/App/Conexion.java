@@ -17,7 +17,7 @@ public class Conexion {
             Connection conn = (Connection) DriverManager.getConnection(url, user, pass);
             return conn;
         } catch(SQLException e) {
-            System.out.println(e.toString() + "aca");
+            System.out.println(e.toString());
             return null;
         }
     }
